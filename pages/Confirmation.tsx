@@ -34,18 +34,18 @@ export const Confirmation: React.FC = () => {
                    <img className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVrOxSk_tht8vHuBeCpASn__JnbUOFe5G5tluxqJ3LtBjj-vSrMc34hy59ZGlcXcnn9pCqy3SOdF_25-T26KSLqqVoSpvEthYsFh9oEZp_rzwkYt_gbdLt13zZBnDVWrP0eRkcpkgj81-kotWdFOAeogBFQsj1JPPXY37Ev6xFvy64wIylxaUXOoQLWVLbsC4bwhzpSmkrWEQEbqwN0t8xwM4WiannqElFpdtzpL2bz307Ar4Aug-LrIDaO3tGV9gpkW6kA6fk3NqQ" alt="Merchant" />
                 </div>
              </div>
-             <h2 className="text-gray-900 dark:text-white text-xl font-bold">Kopi Kenangan</h2>
-             <p className="text-gray-500 text-sm mt-0.5">Coffee Shop • Senopati</p>
+             <h2 className="text-gray-900 dark:text-white text-xl font-bold">kpd. Budi</h2>
+             <p className="text-gray-500 text-sm mt-0.5">Detail : </p>
           </div>
 
           <div className="px-6 mb-8 text-center">
-            <h1 className="text-gray-900 dark:text-white text-4xl font-extrabold tracking-tight">Rp 25.000</h1>
+            <h1 className="text-gray-900 dark:text-white text-4xl font-extrabold tracking-tight">Rp 200.000</h1>
           </div>
 
           <div className="px-6 space-y-3 mb-8">
             <div className="flex justify-between items-center text-sm">
               <span className="text-gray-500">Harga Item</span>
-              <span className="text-gray-900 dark:text-white font-medium">Rp 25.000</span>
+              <span className="text-gray-900 dark:text-white font-medium">Rp 200.000</span>
             </div>
             <div className="flex justify-between items-center text-sm">
               <span className="text-gray-500">Biaya Admin</span>
@@ -54,7 +54,7 @@ export const Confirmation: React.FC = () => {
             <div className="h-px bg-gray-100 dark:bg-[#2d2a45] my-2"></div>
             <div className="flex justify-between items-center">
               <span className="text-gray-900 dark:text-white font-bold">Total Bayar</span>
-              <span className="text-primary font-extrabold text-lg">Rp 25.000</span>
+              <span className="text-primary font-extrabold text-lg">Rp 200.000</span>
             </div>
           </div>
 
@@ -93,7 +93,7 @@ export const Confirmation: React.FC = () => {
             </button>
             <p className="text-center text-[10px] text-gray-400 mt-4 flex items-center justify-center gap-1">
               <span className="material-symbols-outlined text-[12px]">verified_user</span>
-              Transaksi Aman dengan D-PAY Shield
+              Transaksi Aman dengan D-PAY
             </p>
           </div>
         </div>
