@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export const Welcome: React.FC = () => {
@@ -32,7 +31,7 @@ export const Welcome: React.FC = () => {
         <div className="text-center pb-4">
           <div className="flex items-center justify-center gap-2 mb-3">
             <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center shadow-lg shadow-primary/20">
-              <span className="material-symbols-outlined text-white font-bold">payments</span>
+              <span className="material-symbols-outlined text-white font-bold">account_balance_wallet</span>
             </div>
             <h1 className="text-[#0f1a18] dark:text-white tracking-tight text-[36px] font-extrabold leading-tight font-display">
               D-PAY
