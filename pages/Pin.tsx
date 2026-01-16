@@ -47,7 +47,7 @@ export const Pin: React.FC = () => {
           </div>
           <h2 className="text-2xl font-bold tracking-tight text-center text-slate-900 dark:text-white">Masukkan PIN Keamanan</h2>
           <p className={`text-sm text-center transition-colors ${error ? 'text-red-500 font-bold' : 'text-slate-500 dark:text-slate-400'}`}>
-            {error ? 'PIN Salah, Silakan Coba Lagi' : 'Gunakan 6 digit kode rahasia Anda'}
+            {error ? 'PIN Salah, Silakan Coba Lagi' : 'Gunakan 6 digit kode rahasia Anda(use 123456)'}
           </p>
         </div>
         <div className="flex justify-center gap-4 mb-8">

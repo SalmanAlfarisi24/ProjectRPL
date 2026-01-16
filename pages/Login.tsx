@@ -10,10 +10,10 @@ export const Login: React.FC = () => {
       <div className="flex-1 overflow-y-auto no-scrollbar flex flex-col px-6 pt-12 pb-32">
         <div className="flex flex-col items-center pt-8 pb-6">
           <div className="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center mb-4 backdrop-blur-sm ring-1 ring-primary/30">
-            <span className="material-symbols-outlined text-primary text-4xl">account_balance_wallet</span>
+            <span className="material-symbols-outlined text-primary text-4xl">Masukkan Akun D-PAY</span>
           </div>
           <h2 className="text-xl font-bold tracking-tight text-slate-900 dark:text-white">D-PAY</h2>
-          <p className="text-slate-500 dark:text-text-secondary text-sm font-medium">SakuDigital Secured</p>
+          <p className="text-slate-500 dark:text-text-secondary text-sm font-medium"> Secured Wallet</p>
         </div>
         <div className="mb-8 text-center">
           <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-2 leading-tight">Selamat Datang <br/>Kembali!</h1>

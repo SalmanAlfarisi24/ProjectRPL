@@ -18,19 +18,19 @@ export const Register: React.FC = () => {
       {/* Scrollable Form */}
       <div className="flex-1 overflow-y-auto no-scrollbar px-6 pt-4 pb-32">
         <div className="mb-8 mt-2">
-          <h1 className="text-3xl font-bold mb-2 tracking-tight text-slate-900 dark:text-white">Create Account</h1>
-          <p className="text-slate-500 dark:text-text-secondary text-base font-medium">Secure transactions start here. Please enter your details below.</p>
+          <h1 className="text-3xl font-bold mb-2 tracking-tight text-slate-900 dark:text-white">Buat Akun</h1>
+          <p className="text-slate-500 dark:text-text-secondary text-base font-medium">Untuk menjaga keamanan transaksi, silahkan isi data disini.</p>
         </div>
         <div className="space-y-6">
           <div className="flex flex-col gap-2">
-            <label className="text-sm font-semibold text-slate-900 dark:text-white/90 ml-1">Full Name</label>
+            <label className="text-sm font-semibold text-slate-900 dark:text-white/90 ml-1">Nama Lengkap</label>
             <div className="relative">
               <span className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 dark:text-text-secondary material-symbols-outlined">person</span>
               <input className="w-full h-14 bg-white dark:bg-surface-dark border border-slate-200 dark:border-surface-dark rounded-xl px-4 pl-12 text-slate-900 dark:text-white placeholder:text-slate-400 dark:placeholder:text-text-secondary focus:ring-2 focus:ring-primary focus:border-primary transition-all outline-none" placeholder="e.g. Budi Santoso" type="text"/>
             </div>
           </div>
           <div className="flex flex-col gap-2">
-            <label className="text-sm font-semibold text-slate-900 dark:text-white/90 ml-1">Phone Number</label>
+            <label className="text-sm font-semibold text-slate-900 dark:text-white/90 ml-1">No.Phone</label>
             <div className="flex gap-3">
               <div className="flex items-center justify-center bg-white dark:bg-surface-dark border border-slate-200 dark:border-surface-dark rounded-xl px-3 h-14 w-20 shrink-0">
                 <span className="text-white font-medium mr-1">🇮🇩</span>
@@ -41,8 +41,8 @@ export const Register: React.FC = () => {
           </div>
           <div className="flex flex-col gap-3 pt-2">
             <div className="flex justify-between items-end">
-              <label className="text-sm font-semibold text-slate-900 dark:text-white/90 ml-1">Verification Code</label>
-              <button className="text-xs font-bold text-primary hover:text-primary/80 transition-colors">Resend Code</button>
+              <label className="text-sm font-semibold text-slate-900 dark:text-white/90 ml-1">Verifikasi Kode</label>
+              <button className="text-xs font-bold text-primary hover:text-primary/80 transition-colors">Kirim Ulang Kode</button>
             </div>
             <div className="flex gap-3 justify-between">
               <input className="w-full h-14 bg-white dark:bg-surface-dark border border-slate-200 dark:border-surface-dark rounded-xl text-center text-xl font-bold text-slate-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-primary transition-all outline-none" maxLength={1} type="text" defaultValue="8"/>
@@ -50,7 +50,7 @@ export const Register: React.FC = () => {
               <input className="w-full h-14 bg-white dark:bg-surface-dark border border-slate-200 dark:border-surface-dark rounded-xl text-center text-xl font-bold text-slate-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-primary transition-all outline-none" maxLength={1} type="text"/>
               <input className="w-full h-14 bg-white dark:bg-surface-dark border border-slate-200 dark:border-surface-dark rounded-xl text-center text-xl font-bold text-slate-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-primary transition-all outline-none" maxLength={1} type="text"/>
             </div>
-            <p className="text-xs text-slate-500 dark:text-text-secondary ml-1">We sent a code to +62 812 •••• ••••</p>
+            <p className="text-xs text-slate-500 dark:text-text-secondary ml-1">Kode Terkirim ke +62 812 •••• ••••</p>
           </div>
         </div>
       </div>

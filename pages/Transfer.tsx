@@ -65,11 +65,7 @@ export const Transfer: React.FC = () => {
              <p className="text-gray-500 text-xs font-bold uppercase tracking-wider ml-1">Terakhir Ditransfer</p>
              <div className="flex gap-4 overflow-x-auto no-scrollbar pb-2">
                 {[
-                  { name: 'Budi', img: 'https://i.pravatar.cc/150?u=1' },
-                  { name: 'Siti', img: 'https://i.pravatar.cc/150?u=2' },
-                  { name: 'Ahmad', img: 'https://i.pravatar.cc/150?u=3' },
-                  { name: 'Dewi', img: 'https://i.pravatar.cc/150?u=4' },
-                  { name: 'Rian', img: 'https://i.pravatar.cc/150?u=5' }
+                  { name: 'Budi', img: 'https://i.pravatar.cc/150?u=1' }
                 ].map((user, i) => (
                    <button key={i} className="flex flex-col items-center gap-2 shrink-0 w-16 group">
                       <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-transparent group-hover:border-primary transition-all">
