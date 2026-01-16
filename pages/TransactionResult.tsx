@@ -61,7 +61,7 @@ export const TransactionResult: React.FC<TransactionResultProps> = ({ status }) 
           </div>
           
           <h1 className="text-center text-2xl font-extrabold tracking-tight">Pembayaran Berhasil!</h1>
-          <p className="text-gray-500 mt-1">Kopi Kenangan Senopati</p>
+          <p className="text-gray-500 mt-1">kpd.Budi</p>
           <h2 className="mt-6 text-center text-4xl font-black tracking-tight text-primary dark:text-white">Rp 25.000</h2>
           
           <div className="mt-10 w-full max-w-sm rounded-2xl bg-white dark:bg-surface-dark p-6 shadow-xl shadow-black/5 border border-gray-100 dark:border-white/5 space-y-4">
