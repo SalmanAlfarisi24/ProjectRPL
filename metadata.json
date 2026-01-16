@@ -1,0 +1,7 @@
+{
+  "name": "D-PAY Digital Wallet",
+  "description": "A comprehensive digital wallet application featuring transaction history, QR scanning, top-up functionality, and biometric security.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
