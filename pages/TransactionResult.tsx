@@ -37,7 +37,7 @@ export const TransactionResult: React.FC<TransactionResultProps> = ({ status }) 
             <div className="flex justify-between items-center">
                <div className="text-left">
                   <p className="text-[10px] font-bold text-gray-400 uppercase">Tagihan</p>
-                  <p className="text-lg font-bold">Rp 25.000</p>
+                  <p className="text-lg font-bold">Rp 200.000</p>
                </div>
                <button onClick={() => navigate('/topup')} className="text-xs font-bold bg-primary text-white px-3 py-1.5 rounded-lg shadow-md">Isi Saldo</button>
             </div>
