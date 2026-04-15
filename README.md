@@ -6,8 +6,9 @@ https://dpayment.netlify.app/#/
 
 **Prerequisites:**  Node.js
 
-
-1. Install dependencies:
+1. open the folder then open CLI and       install :
    `npm install`
+2. Build app :
+   `npm build`
 3. Run the app:
    `npm run dev`
